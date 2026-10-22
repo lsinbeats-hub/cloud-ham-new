@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --color-cloud-black: #0A0B0D;
+  --color-cloud-graphite: #17191D;
+  --color-cloud-charcoal: #23272E;
+  --color-cloud-white: #F5F4F0;
+  --color-cloud-gray: #A4A6AC;
+  --color-cloud-yellow: #FFD429;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color-scheme: dark;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Smooth section anchor offsets to account for sticky header */
+section {
+  scroll-margin-top: 5rem;
+}
